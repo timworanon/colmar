@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* universal */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body{
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+/* effect to all fonts accept editting */
+html{
+    font-size: 16px;
+}
+/* bold strong text logo */
+strong {
+    font-weight: bold;
+ }
+
+/* header */
+
+header{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+/* navigation bar */
+.navbar{
+    display: flex;
+    align-items: center; 
+    flex-direction: row;
+    justify-content: space-between;
+    max-height: 64px;
+    height: 64px;
+    padding-left: 24px;
+    padding-right: 24px
+}
+
+/* text COLMARACADEMY logo */
+header .logo-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-height: 32px;
+    height: 32px;
+}
+/* image logo */
+header .logo-text img{
+    height: 32px;
+    
+}
+
+/* text list */
+header li{
+    display: inline;
+    padding-left: 16px;  
+}
+
+/* text link */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* mobile's navigation bar */
+header .mobile-navbar{
+    display: none;
+}
+
+/* hero section named with banner */
+
+#banner{
+    width: 100%;
+    display: flex;
+    background-color: rgb(216, 216, 216);;
+}
+
+.first-content {
+    width: 100%;
+    height: auto;
+}
+
+/* students img */
+.banner-img{
+    width: 60%;
+    height: auto;
+    padding: 32px 24px;
+}
+/* block text */
+.sub-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+
+}
+/* text in block */
+#banner h1{
+    width: 100%;
+    height: auto;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* text in block */
+#banner p{
+    margin: 32px 0 32px 0;
+}
+/* button  */
+.press{
+    padding: 8px 0px 8px 0;
+    width: 50%;
+    color: #fff;
+    background-color: #353535;
+}
+
+
+
+/* imformation section named with practice */
+#practice{
+    display: flex;
+    text-align: left;
+}
+ /* parent of left-right box */
+.container{
+    display: flex;
+    text-align: left;
+}
+/* page adjust for left box */
+.side-box-left{
+    width: 60%;
+    text-align: left;
+    margin: 0 24px;;
+}
+/* image in left box */
+.side-box-left img{
+    width: 100%;
+    padding: 32px 0;
+}
+/* text */
+.practice-text h2{
+    padding-bottom: 24px;
+}
+/* text */
+.practice-text p{
+    padding-bottom: 24px;
+}
+/* text Emanuel */
+.qouted{
+    font-size: 10px;
+    padding-bottom: 32px;
+}
+
+/* right side box------------------------------------------------------ */
+.side-box-right{
+    width: 40%;
+    text-align: left;
+    border-left: 1px solid rgb(216, 216, 216);
+}
+/* all images in right box */
+.side-box-right img{
+    width: 35%;
+    height: auto;
+}
+
+
+/* orientation info---------------------------------------------------*/
+.orientation-info{
+    display: flex;
+    align-items: center;
+    padding: 0 0 16px 16px;
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+/* orientation image */
+.orientation-info img{
+    padding-top: 34px;
+}
+/* text in div box */
+.orientation-info div{
+    padding: 34px 16px;
+    font-size: small
+}
+/* text */
+.orientation-info p{
+    padding: 8px 0;
+}
+/* orientation link */
+.orientation-info a{
+    color: rgb(116, 180, 249);
+}
+
+
+/* campus information------------------------------------------------- */
+.campus-info{
+    display: flex;
+    align-items: center;
+    padding: 16px 0 16px 16px;
+    border-left: 1px solid rgb(216, 216, 216);
+}
+/* text in div box*/
+.campus-info div{
+    padding: 34px 16px;
+    font-size: small
+}
+/* campus text */
+.campus-info p{
+    padding: 8px 0;
+}
+/* campus link */
+.campus-info a{
+    color: rgb(116, 180, 249);
+}
+
+/* guest information--------------------------------------------------- */
+.guest-info{
+    display: flex;
+    align-items: center;
+    padding: 16px 0 16px 16px;
+    background-color: rgb(216, 216, 216);
+}
+/* text in div box */
+.guest-info div{
+    padding: 34px 16px;
+    font-size: small
+}
+/* text */
+.guest-info p{
+    padding: 8px 0;
+}
+/* guest link */
+.guest-info a{
+    color: rgb(116, 180, 249);
+}
