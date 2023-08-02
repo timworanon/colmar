@@ -237,3 +237,162 @@ header .mobile-navbar{
 .guest-info a{
     color: rgb(116, 180, 249);
 }
+
+
+/* couse section */
+.main-course-container{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    background-color: rgb(216, 216, 216);
+}
+/* text start learning */
+#course h2{
+    text-align: center;
+    font-size: 34px;
+    padding: 32px;
+    background-color: rgb(216, 216, 216);
+
+}
+/* packing container: software eng, computer art, design */
+.container_1{
+    display: flex;
+    justify-content: center;
+    padding: 0 72px 32px 72px;
+    width: 100%;
+    height: auto;
+}
+/* image in each box */
+.container_1 img{
+    width: 100%;
+    height: auto;
+}
+
+/* software eng editting part */
+.software-info{
+    padding: 0;
+    text-align: left;
+}
+.software-text {
+    padding: 16px 16px 8px 16px;
+    font-size: medium;
+    background-color: #ffff;
+}
+.software-text h4{
+    padding: 16px 0 8px 0;
+    font-size: small;
+}
+.software-text p{
+    padding: 8px 0 24px 0;
+    font-size: smaller;
+}
+
+/* computer art editting part */
+.computer-info{
+    padding: 0 32px 24px 32px;
+    text-align: left;
+}
+.computer-info img{
+    height: 179px;
+}
+.computer-text {
+    padding: 16px 16px 8px 16px;
+    background-color: #fff;
+    font-size: medium;
+}
+.computer-text h4{
+    padding: 16px 0 8px 0;
+    font-size: small;
+}
+.computer-text p{
+    padding: 8px 0 24px 0;
+    font-size: smaller;
+}
+
+/* design editting part */
+.design-info{
+    text-align: left;
+}
+.design-text {
+    padding: 16px 16px 24px 16px;
+    background-color: #fff;
+    font-size: medium;
+}
+.design-text h4{
+    padding: 16px 0 8px 0;
+    font-size: small;
+}
+.design-text p{
+    padding: 8px 0 24px 0;
+    font-size: smaller;
+}
+
+
+/* packing container: data, business, marketing*/
+.container_2{
+    display: flex;
+    justify-content: center;
+    padding: 32px 72px 32px 72px;
+    width: 100%;
+    height: auto;
+}
+/* image in each box */
+.container_2 img{
+    width: 100%;
+    height: auto;
+}
+
+/* data editting part */
+.data-info{
+    text-align: left;
+}
+.data-text {
+    padding: 16px 16px 24px 16px;
+    background-color: #fff;
+    font-size: medium;
+}
+.data-text h4{
+    padding: 16px 0 8px 0;
+    font-size: small;
+}
+.data-text p{
+    padding: 8px 0 24px 0;
+    font-size: smaller;
+}
+
+/* business editting part */
+.business-info{
+    padding: 0 32px 24px 32px;
+    text-align: left;
+}
+.business-text {
+    padding: 16px 16px 8px 16px;
+    background-color: #fff;
+    font-size: medium;
+}
+.business-text h4{
+    padding: 16px 0 8px 0;
+    font-size: small;
+}
+.business-text p{
+    padding: 8px 0 24px 0;
+    font-size: smaller;
+}
+
+/* markeing editting part */
+.marketing-info{
+    text-align: left;
+}
+.marketing-text {
+    padding: 16px 16px 24px 16px;
+    background-color: #fff;
+    font-size: medium;
+}
+.marketing-text h4{
+    padding: 16px 0 8px 0;
+    font-size: small;
+}
+.marketing-text p{
+    padding: 8px 0 24px 0;
+    font-size: smaller;
+}
