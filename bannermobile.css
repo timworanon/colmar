@@ -1,0 +1,25 @@
+@media screen and (max-width: 426px) { 
+    /* show and flex-column banner */
+    #banner{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    /* banner image */
+    .banner-img{
+        width: 100%;
+        padding: 0%;
+    }
+    /* text of banner */
+    .sub-content{
+        text-align: left;
+        margin: auto;
+        padding: 32px 16px;
+    }
+    /* button */
+    .press{
+        width: 100%;
+        background-color: rgb(179, 178, 178);
+    }
+}

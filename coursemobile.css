@@ -1,0 +1,49 @@
+@media screen and (max-width: 426px) {
+    /* all contents in #course appear */
+    #course{
+        display: block;
+    }
+    /* header text editting */
+    #course h2{
+        padding-top: 32px;
+        padding-bottom: 16px;
+        background-color: #fff;
+    }
+    /* box containing text */
+    .info,
+    .info_2{
+        padding: 16px 24px 16px 16px;
+        background-color: rgb(193, 193, 193);
+    }
+    /* header text in each boxs */
+    .info h3,
+    .info_2 h3{
+        display: inline;
+        padding: 0%;
+    }
+    /* texts and images in each boxs are disapear */
+    .info img,
+    .info_2 img,
+    .info h4,
+    .info_2 h4,
+    .info p,
+    .info_2 p {
+        display: none;
+    }
+    /* container of box od info edittng */
+    .container_1,
+    .container_2{
+        display: flex;
+        flex-direction: column;
+        padding: 0 16px 8px 16px;
+        gap: 8px;
+    }
+    /* container 2 of box od info edittng */
+    .container_2{
+       padding-bottom: 32px; 
+    }
+    /* container that hold info box */
+    .main-course-container{
+        background-color: #fff;
+    }
+}

@@ -1,0 +1,15 @@
+@media screen and (max-width: 426px) { 
+    /* will no show in mobile ver. */
+    .navbar{
+        display: none;
+    }
+    /* editting navigation bar of mobile ver. */
+    .navbar-mobile{
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: space-between;
+        padding: 16px 24px;
+    }
+
+}

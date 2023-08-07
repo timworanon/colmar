@@ -1,0 +1,15 @@
+@media screen and (max-width: 426px){
+    /* footer editting */
+    .footer{
+        padding: 16px 16px;
+        border-top: 0;
+    }
+    /* footer text */
+    .footer p {
+        font-size: small;
+    }
+    /* footer list link disappear */
+    .footer ul{
+        display: none;
+    }
+}

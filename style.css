@@ -5,7 +5,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* border: 1px solid red; */
 }
 
 body{
@@ -28,7 +27,7 @@ strong {
 /* header */
 header{
     width: 100%;
-    /* border: 1px solid red; */
+  
 }
 /* navigation bar */
 .navbar{
@@ -43,7 +42,7 @@ header{
 }
 
 /* text COLMARACADEMY logo */
-header .logo-text{
+.logo-text{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -51,13 +50,13 @@ header .logo-text{
     height: 32px;
 }
 /* image logo */
-header .logo-text img{
+.logo-text img{
     height: 32px;
     
 }
 
 /* text list */
-header li{
+li{
     display: inline;
     padding-left: 16px;  
 }
@@ -69,7 +68,7 @@ a {
 }
 
 /* mobile's navigation bar */
-header .mobile-navbar{
+.navbar-mobile{
     display: none;
 }
 
@@ -81,12 +80,10 @@ header .mobile-navbar{
     display: flex;
     background-color: rgb(216, 216, 216);;
 }
-
 .first-content {
     width: 100%;
     height: auto;
 }
-
 /* students img */
 .banner-img{
     width: 60%;
@@ -109,10 +106,9 @@ header .mobile-navbar{
     font-weight: bold;
     font-size: 30px;
 }
-
 /* text in block */
 #banner p{
-    margin: 32px 0 32px 0;
+    margin: 32px 0 24px 0;
 }
 /* button  */
 .press{
@@ -171,7 +167,6 @@ header .mobile-navbar{
     height: auto;
 }
 
-
 /* orientation info */
 .orientation-info{
     display: flex;
@@ -197,8 +192,7 @@ header .mobile-navbar{
     color: rgb(116, 180, 249);
 }
 
-
-/* campus information------------------------------------------------- */
+/* campus information */
 .campus-info{
     display: flex;
     align-items: center;
@@ -219,8 +213,7 @@ header .mobile-navbar{
     color: rgb(116, 180, 249);
 }
 
-
-/* guest information--------------------------------------------------- */
+/* guest information */
 .guest-info{
     display: flex;
     align-items: center;
@@ -240,6 +233,10 @@ header .mobile-navbar{
 .guest-info a{
     color: rgb(116, 180, 249);
 }
+/* infomation mobile image */
+.practice-mobile{
+    display: none;
+}
 
 
 
@@ -256,14 +253,14 @@ header .mobile-navbar{
     font-size: 34px;
     padding: 32px;
     background-color: rgb(216, 216, 216);
-
 }
 /* packing container: software eng, computer art, design */
-.container_1{
+.container_1 {
     display: flex;
-    justify-content: center;
-    padding: 0 72px 32px 72px;
+    justify-content: space-between;
+    padding: 32px 72px 16px 72px;
     width: 100%;
+    gap: 32px;
     height: auto;
 }
 /* image in each box */
@@ -271,73 +268,28 @@ header .mobile-navbar{
     width: 100%;
     height: auto;
 }
-
-/* software eng editting part */
-.software-info{
-    padding: 0;
+/* software eng, computer, design editting part */
+.info{
     text-align: left;
-}
-.software-text {
-    padding: 16px 16px 8px 16px;
+    padding-bottom: 24px;
     font-size: medium;
+    width: 100%;
     background-color: #ffff;
 }
-.software-text h4{
-    padding: 16px 0 8px 0;
-    font-size: small;
+/* text software eng, computer, design */
+.info h3,
+.info h4,
+.info p{
+    padding: 8px 16px 8px 16px;
 }
-.software-text p{
-    padding: 8px 0 24px 0;
-    font-size: smaller;
-}
-
-/* computer art editting part */
-.computer-info{
-    padding: 0 32px 24px 32px;
-    text-align: left;
-}
-.computer-info img{
-    height: 179px;
-}
-.computer-text {
-    padding: 16px 16px 8px 16px;
-    background-color: #fff;
-    font-size: medium;
-}
-.computer-text h4{
-    padding: 16px 0 8px 0;
-    font-size: small;
-}
-.computer-text p{
-    padding: 8px 0 24px 0;
-    font-size: smaller;
-}
-
-/* design editting part */
-.design-info{
-    text-align: left;
-}
-.design-text {
-    padding: 16px 16px 24px 16px;
-    background-color: #fff;
-    font-size: medium;
-}
-.design-text h4{
-    padding: 16px 0 8px 0;
-    font-size: small;
-}
-.design-text p{
-    padding: 8px 0 24px 0;
-    font-size: smaller;
-}
-
 
 /* packing container: data, business, marketing*/
 .container_2{
     display: flex;
-    justify-content: center;
-    padding: 32px 72px 32px 72px;
+    justify-content: space-between;
+    padding: 16px 72px 32px 72px;
     width: 100%;
+    gap: 32px;
     height: auto;
 }
 /* image in each box */
@@ -345,60 +297,19 @@ header .mobile-navbar{
     width: 100%;
     height: auto;
 }
-
-/* data editting part */
-.data-info{
+/* data, business, marketing editting part */
+.info_2{
     text-align: left;
-}
-.data-text {
-    padding: 16px 16px 24px 16px;
-    background-color: #fff;
+    padding-bottom: 24px;
     font-size: medium;
+    width: 100%;
+    background-color: #ffff;
 }
-.data-text h4{
-    padding: 16px 0 8px 0;
-    font-size: small;
-}
-.data-text p{
-    padding: 8px 0 24px 0;
-    font-size: smaller;
-}
-
-/* business editting part */
-.business-info{
-    padding: 0 32px 24px 32px;
-    text-align: left;
-}
-.business-text {
-    padding: 16px 16px 8px 16px;
-    background-color: #fff;
-    font-size: medium;
-}
-.business-text h4{
-    padding: 16px 0 8px 0;
-    font-size: small;
-}
-.business-text p{
-    padding: 8px 0 24px 0;
-    font-size: smaller;
-}
-
-/* markeing editting part */
-.marketing-info{
-    text-align: left;
-}
-.marketing-text {
-    padding: 16px 16px 24px 16px;
-    background-color: #fff;
-    font-size: medium;
-}
-.marketing-text h4{
-    padding: 16px 0 8px 0;
-    font-size: small;
-}
-.marketing-text p{
-    padding: 8px 0 24px 0;
-    font-size: smaller;
+/* text data, business, marketing */
+.info_2 h3,
+.info_2 h4,
+.info_2 p {
+    padding: 8px 16px 8px 16px;
 }
 
 
@@ -410,7 +321,6 @@ header .mobile-navbar{
     font-size: 34px;
     padding: 32px;
 }
-
 /* thesis whole box */
 .thesis-container{
     width: 100%;
@@ -418,26 +328,22 @@ header .mobile-navbar{
     text-align: left;
 
 }
-
 /* thesis left box */
 .left-box{
     width: 60%;
 }
-
 /* video left box */
 .thesis-info-left video{
     width: 100%;
     text-align: left;
     padding: 0 24px;
 }
-
 /* bold text left box */
 .thesis-info-left h3{
     width: 60%;
     text-align: left;
     padding: 24px 24px 0 24px;
 }
-
 /* text left box */
 .thesis-info-left p {
     padding: 8px 24px 32px 24px;
@@ -447,31 +353,26 @@ header .mobile-navbar{
 .right-box{
     width: 40%;
 }
-
 /* all images editting right box*/
 .thesis-info-right img{
     width: 35%;
     height: auto;
     padding: 16px 16px;
 }
-
 /* top right box editting */
 .thesis-info-right-top{
     display: flex;
     background-color: rgb(216, 216, 216);
 }
-
 /* text edittng */
 .text-right-top{
     padding: 64px 16px 0 0;
     text-align: left;
 }
-
 /* bottom right box edittng */
 .thesis-info-right-bottom{
     display: flex;
 }
-
 /* text editting */
 .text-right-bottom{
     padding: 64px 16px 0 0;
@@ -491,7 +392,6 @@ header .mobile-navbar{
     padding: 16px 24px 44px 24px;
     border-top: 1px solid rgb(216, 216, 216);
 }
-
 /* list: term, privacy */
 .footer li{
     display: inline;

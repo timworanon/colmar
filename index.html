@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colmar Academy</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbarmobile.css">
+    <link rel="stylesheet" href="bannermobile.css">
+    <link rel="stylesheet" href="infomationmobile.css">
+    <link rel="stylesheet" href="coursemobile.css">
+    <link rel="stylesheet" href="thesismobile.css">
+    <link rel="stylesheet" href="footermobile.css">
+
+
 </head>
 <body>
 
@@ -28,13 +36,13 @@
                 <li>
                     <a href="#">Sign in</a>
                 </li>
-            </ul>
-            <div class="mobile-navbar">
-                <img src="capstone_colmar_assets/capstone_colmar_assets/images/ic-logo.svg">
-                <img src="capstone_colmar_assets/capstone_colmar_assets/images/ic-on-campus.svg">
-                <img src="capstone_colmar_assets/capstone_colmar_assets/images/ic-online.svg">
-                <img src="capstone_colmar_assets/capstone_colmar_assets/images/ic-login.svg">
-            </div>
+            </ul> 
+        </nav>
+        <nav class="navbar-mobile">
+            <img src="images/ic-logo.svg">
+            <img src="images/ic-on-campus.svg">
+            <img src="images/ic-online.svg">
+            <img src="images/ic-login.svg">
         </nav>
     </header>
 
@@ -57,39 +65,65 @@
                         <div class="practice-img">
                             <img src="images/information-main.jpg">
                         </div>
-                            <div class="practice-text">
-                                <h2>It doesn't hurt to keep praticing</h2>
-                                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius unde sequi corporis ex dignissimos ducimus, ipsam omnis voluptates? Provident iure voluptas blanditiis beatae tempore nisi minus corrupti maxime cumque fuga."</p>
-                                <p class="qouted">Emanuel, Sr Strategist at Hiring.com</p>
-                            </div>
-                        </div>
-                    </div>        
-                    <div class="side-box-right">
-                        <div class="orientation-info">
-                            <img src="/images/information-orientation.jpg" >
-                            <div>
-                                <h2>Orientation date</h2>
-                                <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
-                                <a href="#">Read more</a>
-                            </div>
-                        </div>
-                        <div class="campus-info">
-                            <img src="/images/information-campus.jpg" >
-                            <div>
-                                <h2>Our campus</h2>
-                                <p>Find which campus is close by you</p>
-                                <a href="#">Read more</a>
-                            </div>
-                        </div>
-                        <div class="guest-info">
-                            <img src="/images/information-guest-lecture.jpg" >
-                            <div>
-                                <h2>Our gest lecture</h2>
-                                <p>Join a keynote with Oliver Sack about music in medical treament </p>
-                                <a href="#">Read more</a>
-                            </div>
+                        <div class="practice-text">
+                            <h2>It doesn't hurt to keep praticing</h2>
+                            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius unde sequi corporis ex dignissimos ducimus, ipsam omnis voluptates? Provident iure voluptas blanditiis beatae tempore nisi minus corrupti maxime cumque fuga."</p>
+                            <p class="qouted">Emanuel, Sr Strategist at Hiring.com</p>
                         </div>
                     </div>
+                </div>        
+                <div class="side-box-right">
+                    <div class="orientation-info">
+                        <img src="/images/information-orientation.jpg" >
+                        <div>
+                            <h2>Orientation date</h2>
+                            <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                    <div class="campus-info">
+                        <img src="/images/information-campus.jpg" >
+                        <div>
+                            <h2>Our campus</h2>
+                            <p>Find which campus is close by you</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                    <div class="guest-info">
+                        <img src="/images/information-guest-lecture.jpg" >
+                        <div>
+                            <h2>Our gest lecture</h2>
+                            <p>Join a keynote with Oliver Sack about music in medical treament </p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="practice-mobile">
+                <div class="boxx">
+                    <img src="images/information-orientation-mobile.jpg" alt="orientation">
+                    <div>
+                        <h2>Orientation date</h2>
+                        <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="boxx">
+                    <img src="images/information-campus-mobile.jpg" alt="campus">
+                    <div>
+                        <h2>Our campus</h2>
+                        <p>Find which campus is close by you</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="boxx">
+                    <img src="images/information-guest-lecture-mobile.jpg" alt="gest">
+                    <div>
+                        <h2>Our gest lecture</h2>
+                        <p>Join a keynote with Oliver Sack about music in medical treament </p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>  
             </div>
         </section>
 
@@ -98,55 +132,43 @@
             <h2>Start learning</h2>
                 <div class="main-course-container">
                     <div class="container_1">
-                        <div class="software-info">
+                        <div class="info">
                             <img src="images/course-software.jpg">
-                            <div class="software-text">
-                                <h3>Software engineering</h3>
-                                <h4>COURSE</h4>
-                                <p>Web Development, Moblie Development. iOT, APIs</p>
-                            </div>
+                            <h3>Software engineering</h3>
+                            <h4>COURSE</h4>
+                            <p>Web Development, Moblie Development. iOT, APIs</p>
                         </div>
-                        <div class="computer-info">
+                        <div class="info">
                             <img src="images/course-computer-art.jpg">
-                            <div class="computer-text">
-                                <h3>Computer art</h3>
-                                <h4>COURSE</h4>
-                                <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Compuer Animation</p>
-                            </div>
+                            <h3>Computer art</h3>
+                            <h4>COURSE</h4>
+                            <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Compuer Animation</p>
                         </div>
-                        <div class="design-info">
+                        <div class="info">
                             <img src="images/course-design.jpg">
-                            <div class="design-text">
-                                <h3>Design</h3>
-                                <h4>COURSE</h4>
-                                <p>Use Experience, User Research, Visual Design</p>
-                            </div>
+                            <h3>Design</h3>
+                            <h4>COURSE</h4>
+                            <p>Use Experience, User Research, Visual Design</p>
                         </div>
                     </div>
                     <div class="container_2">
-                        <div class="data-info">
+                        <div class="info_2">
                             <img src="images/course-data.jpg">
-                            <div class="data-text">
-                                <h3>Data</h3>
-                                <h4>COURSE</h4>
-                                <p>Data Science, Big Data, SQL, Data Visaulization</p>
-                            </div>
+                            <h3>Data</h3>
+                            <h4>COURSE</h4>
+                            <p>Data Science, Big Data, SQL, Data Visaulization</p>
                         </div>
-                        <div class="business-info">
+                        <div class="info_2">
                             <img src="images/course-business.jpg">
-                            <div class="business-text">
-                                <h3>Business</h3>
-                                <h4>COURSE</h4>
-                                <p>Product Development, Business Development, Startup</p>
-                            </div>
+                            <h3>Business</h3>
+                            <h4>COURSE</h4>
+                            <p>Product Development, Business Development, Startup</p>
                         </div>
-                        <div class="marketing-info">
+                        <div class="info_2">
                             <img src="images/course-marketing.jpg">
-                            <div class="marketing-text">
-                                <h3>Marketing</h3>
-                                <h4>COURSE</h4>
-                                <p>Analytic, Content Marketing, Mobile Marketing</p>
-                            </div>
+                            <h3>Marketing</h3>
+                            <h4>COURSE</h4>
+                            <p>Analytic, Content Marketing, Mobile Marketing</p>
                         </div>
                     </div>
                 </div>

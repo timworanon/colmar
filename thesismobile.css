@@ -1,0 +1,21 @@
+@media screen and (max-width: 426px) {
+    /* header text */
+    #thesis h2{
+        padding: 32px 0 16px 0;
+    }
+    /* right content, header and text discription of video player are disappear */
+    .right-box,
+    .thesis-container h3,
+    .thesis-container p{
+        display: none;
+    }
+    /* left content appear */
+    .left-box{
+        width: 100%;
+    }
+    /* the video player appear */
+    .thesis-info-left video{
+        padding: 16px 0 24px 0;
+    }
+    
+}
